@@ -11,10 +11,8 @@ public class list_string2 {
         caja.add("|\t\t\t|");
         caja.add("*************************");
 
-        System.out.println(caja.get(0));
-        System.out.println(caja.get(1));
-        System.out.println(caja.get(2));
-        System.out.println(caja.get(3));
-        System.out.println(caja.get(4));
+        for (int i = 0; i < caja.size(); i++) {
+            System.out.println(caja.get(i));
+        }        
     }
 }
