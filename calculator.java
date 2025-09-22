@@ -1,13 +1,13 @@
 public class calculator {
 	public static void main(String [] args){
 	
-	final int a = 5;
-	final double b = 7;
+	int a = 1;
+	double b = 7;
 
 	double resta = a - b;
 	double suma = a + b;
 	double multiplicacion = a * b;
-	double division = a / b;
+	double division = b / a;
 	
 	
 	System.out.println("El Resultado de la resta es:" + resta);
