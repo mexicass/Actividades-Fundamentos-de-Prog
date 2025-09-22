@@ -1,13 +1,14 @@
 public class circulo {
+	public static final double PI = 3.14159;
 	public static void main(String [] args){
 	
-	final double pi = 3.14159;
-	final int radio = 1;
+	final int RADIO = 1;
 
-	double area = pi * radio * radio;
-	double perimetro = 2 * pi * radio;
+	double area = PI * RADIO * RADIO;
+	double perimetro = 2 * PI * RADIO;
 	
-	System.out.print(perimetro);
+	System.out.println("El Area es igual a: "+ area);
+	System.out.println("El perimetro es igual a: "+ perimetro);
 
 	}
 }
