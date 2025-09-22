@@ -1,8 +1,15 @@
-public class calculator {
+import java.util.Scanner;
+
+public class scan {
 	public static void main(String [] args){
+	 
+	Scanner Entrada = new Scanner(System.in);
 	
-	int a = 1;
-	double b = 7;
+	System.out.print("Ingresa el primer valor: ");
+	double a = Entrada.nextDouble();
+
+	System.out.print("Ingresa el segundo valor: ");
+	double b = Entrada.nextDouble();
 
 	double resta = a - b;
 	double suma = a + b;
@@ -14,6 +21,7 @@ public class calculator {
 	System.out.println("El Resultado de la suma es:" + suma);	
 	System.out.println("El Resultado de la multiplicacion es:" + multiplicacion);
 	System.out.println("El Resultado de la division es:" + division);
+
 
 	}
 }
