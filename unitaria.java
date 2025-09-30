@@ -1,19 +1,29 @@
 import java.util.Scanner;
 public class unitaria {
 
-  	public static void main(String[] args) {
+    public static void main(String[] args) {
   	Scanner scanner = new Scanner(System.in);
-
+    
+    int d1=0, d2=0, d3=0, d4=0, d5=0, d6=0;
+    //Sistema de scanner
   	System.out.print("Introduce un número de 6 dígitos: ");
-  	int num = scanner.nextInt();
-
-  	int d6 = num % 10;          
-  	int d5 = (num / 10) % 10;   
-  	int d4 = (num / 100) % 10; 
-	int d3 = (num / 1000) % 10; 
-	int d2 = (num / 10000) % 10;
-	int d1 = (num / 100000) % 10;
-
+  	
+    if (scanner.hasNextInt()) {
+        int num = scanner.nextInt();
+        //Operaciones para transformar en decimales
+  	    d6 = num % 10;          
+  	    d5 = (num / 10) % 10;   
+  	    d4 = (num / 100) % 10; 
+	    d3 = (num / 1000) % 10; 
+	    d2 = (num / 10000) % 10;
+	    d1 = (num / 100000) % 10;
+    } 
+        else {
+        System.out.println("Solo se permiten números.");
+        scanner.close();
+        return;
+    }
+    
 	///caja
 	char barrahorizontal='\u2500';
 	char barravertical='\u2502';
