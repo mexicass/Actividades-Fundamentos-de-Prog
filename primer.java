@@ -1,6 +1,6 @@
 public class primer{
 
-    public static void main(String [] args) {
+    public static void fundamentos(String [] args) {
         System.out.println();
         System.out.println("Este es mi primer letrero");
         System.out.println();
