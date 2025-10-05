@@ -1,14 +1,26 @@
+import java.util.Scanner;
+
 public class circulo {
-	public static final double PI = 3.14159;
-	public static void main(String [] args){
-	
-	final int RADIO = 1;
+    public static void main(String[]args){
+    
+    Scanner valor_de_radio;
+    double radio;
+    double perimetro;
+    double area;
+    final double PI=3.14159;
 
-	double area = PI * RADIO * RADIO;
-	double perimetro = 2 * PI * RADIO;
-	
-	System.out.println("El Area es igual a: "+ area);
-	System.out.println("El perimetro es igual a: "+ perimetro);
+    System.out.print("Este programa calcula el valor del area y perimetro\nEnseguida se le pedira ingresar un valor numerico al radio\n");
+    System.out.println("Por ejemplo 1.0");
+    
+    System.out.print("Ingrese el valor del radio: \nValor del radio= ");
+    valor_de_radio=new Scanner(System.in);
+    radio=valor_de_radio.nextDouble();
 
-	}
+    area=PI*(radio*radio);
+    perimetro=(2*radio)*PI;
+
+    System.out.println("El area de un circulo con valor de radio: " + radio + " es igual a: " + area);
+    System.out.println("El perimetro el igual a: " + perimetro);
+
+    }
 }

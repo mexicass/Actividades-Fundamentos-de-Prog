@@ -15,10 +15,9 @@ public class dados {
 
     dados.close();
 
-
     System.out.printf("Tu nombre es: %s\n", nome);
-    System.out.printf("Tienes %d\n", idade);
-    System.out.printf("Mides %.2f\n", altura);
+    System.out.printf("Tienes %d de edad\n", idade);
+    System.out.printf("Tu altura es de: %.2f\n", altura);
 
     }
 }
