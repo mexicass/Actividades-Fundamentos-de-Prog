@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class grados {
+public class conv_grados {
     public static void main(String [] args){
     
     //Constantes
@@ -42,3 +42,4 @@ public class grados {
     
     }
 }
+
