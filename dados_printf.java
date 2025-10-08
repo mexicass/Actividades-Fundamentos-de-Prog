@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class dados {   
+public class dados_printf {   
     public static void main(String[] args) {
     
     Scanner dados = new Scanner (System.in);
@@ -20,4 +20,5 @@ public class dados {
     System.out.printf("Tu altura es de: %.2f\n", altura);
 
     }
+
 }
