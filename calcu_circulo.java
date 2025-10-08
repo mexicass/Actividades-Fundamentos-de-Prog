@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class circulo {
+public class calcu_circulo {
     public static void main(String[]args){
     
     Scanner valor_de_radio;
@@ -24,3 +24,4 @@ public class circulo {
 
     }
 }
+
