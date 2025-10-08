@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class scan2 {
+public class conv_segundos {
 	public static void main(String [] args){
 
 	Scanner entrada = new Scanner (System.in);
