@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class ecuaciones {
+public class ecuacion_general {
 	public static void main(String [] args){
 	
 	double a = 1;
