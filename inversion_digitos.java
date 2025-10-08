@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class inversion {
+public class inversion_digitos {
     public static void main(String[]args) {
     
         //Sistema de Scanner
@@ -50,3 +50,4 @@ public class inversion {
     
     }
 }
+
