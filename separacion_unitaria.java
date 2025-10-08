@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class unitaria {
+public class separacion_unitaria {
 
     public static void main(String[] args) {
   	Scanner scanner = new Scanner(System.in);
