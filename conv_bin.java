@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cifras {
+public class conv_bin {
     public static void main(String [] args){
         
     //Sistema de ingrasar numero
@@ -46,4 +46,5 @@ public class cifras {
 	System.out.print(esquinainfder+" "+"\n");
 
     }
+
 }
