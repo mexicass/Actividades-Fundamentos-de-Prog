@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ecuac {
+public class ecuac_simultaneas {
 	public static void main(String [] args){
 	
 	Scanner entrada = new Scanner(System.in);
