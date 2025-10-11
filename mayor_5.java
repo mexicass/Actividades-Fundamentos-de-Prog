@@ -8,7 +8,7 @@ public class mayor_5 {
 	
 	System.out.println("Ingresa un valor numerico de Y");
 	int y = entrada.nextInt();
-
+	entrada.close();
 	
 	if (x > 4) {
 		if (y > 4)

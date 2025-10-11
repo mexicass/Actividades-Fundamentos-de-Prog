@@ -10,7 +10,7 @@ public class decision_numero {
 	System.out.println("¿Que le gustaria hacer? ");
 	System.out.println("1-Sumar \n2-Invertir");
 	int decision = entrada.nextInt ();
-	
+	entrada.close();
 	int d1,d2,d3,d4,d5,d6;
 
 	if (decision == 1){		

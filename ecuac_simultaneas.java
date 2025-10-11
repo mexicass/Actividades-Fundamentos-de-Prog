@@ -20,7 +20,7 @@ public class ecuac_simultaneas {
 
 	System.out.println("Ingresa el valor de F");
 	int coe6 = entrada.nextInt();
-
+	entrada.close();
 
 	int division = (coe1 * coe4) - (coe2 * coe3); 
 	
@@ -29,10 +29,10 @@ public class ecuac_simultaneas {
 
 	} else {
 		int x = ((coe5 * coe4) - (coe2 * coe6)) / ((coe1 * coe4) - (coe2 * coe3));
-		System.out.println("El Resultado de X es: " + division);
+		System.out.println("El Resultado de X es: " + x);
 
 		int y = ((coe1 * coe6) - (coe5 * coe3)) / ((coe1 * coe4) - (coe2 * coe3));
-		System.out.println("El Resultado de Y es: " + division);
+		System.out.println("El Resultado de Y es: " + y);
 	}
 	
 	

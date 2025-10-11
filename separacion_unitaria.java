@@ -23,7 +23,7 @@ public class separacion_unitaria {
         scanner.close();
         return;
     }
-    
+    scanner.close();
 	///caja
 	char barrahorizontal='\u2500';
 	char barravertical='\u2502';

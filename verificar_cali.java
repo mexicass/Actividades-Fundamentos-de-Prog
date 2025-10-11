@@ -5,7 +5,7 @@ public class verificar_cali {
 	Scanner entrada = new Scanner(System.in);
 	System.out.println("Ingresa la Calificacion");
 	int cali = entrada.nextInt();
-
+	entrada.close();
 	
 	if (cali >= 90) {
 		if (cali <= 100)

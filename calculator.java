@@ -10,7 +10,7 @@ public class calculator {
 
 	System.out.print("Ingresa el segundo valor: ");
 	double b = Entrada.nextDouble();
-
+	Entrada.close();
 	double resta = a - b;
 	double suma = a + b;
 	double multiplicacion = a * b;

@@ -7,7 +7,7 @@ public class inversion_digitos {
         Scanner entrada = new Scanner(System.in);
         System.out.print("Ingresa un valor numerico y voy a invertir las cifras (Max 6 digitos): ");
         int valor = entrada.nextInt();
-
+        entrada.close();
         int d1 = valor % 10;
         int d2 = (valor / 10) % 10;
         int d3 = (valor / 100) % 10;

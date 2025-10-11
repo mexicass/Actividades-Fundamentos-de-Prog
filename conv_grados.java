@@ -10,7 +10,7 @@ public class conv_grados {
     Scanner entrada = new Scanner(System.in);
     System.out.println("Ingrese el valor en grados celsius\nPor ejemplo: '10.5'");
     double celsius = entrada.nextDouble();
-    
+    entrada.close();
     //Opereciones
     double farenheit = (celsius*9/5)+congelacion_farenheit;
 
