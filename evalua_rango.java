@@ -13,19 +13,19 @@ public class evalua_rango {
 	if (num1 < 1000 && num2 > 100) {
 		System.out.println("El numero 1 y numero 2 cumple");
 	} else {
-		System.out.println("El numero no esta en el rango");
+		System.out.println("El numero no cumple");
 	}
 
 	if (num1 < 1000 || num2 > 100) {
 		System.out.println("Al menos 1 numero cumple");
 	} else {
-		System.out.println("El numero no esta en el rango");
+		System.out.println("El numero no cumple");
 	}
 	
 	if (num1 < 1000 && !(num2 > 100)) {
 		System.out.println("Ningun numero cumple");
 	} else {
-		System.out.println("El numero no esta en el rango");
+		System.out.println("El numero no cumple");
 	}
 
 
