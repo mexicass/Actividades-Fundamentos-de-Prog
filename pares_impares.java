@@ -15,7 +15,7 @@ public class pares_impares {
         String grafico = "\uD83D\uDCCA";
         char caracter = '\u2500';
 
-        //Identificando si el numero es positivo o negativo
+        //Identificando si el numero es positivo o negativo, impar o par 
         if (num > 0 && num % 2 == 0) {
             System.out.println(grafico + " Clasificación Compleja de Número Entero " + grafico);
             System.out.println("\t   Número a evaluar: " + num);
